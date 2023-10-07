@@ -16,3 +16,8 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
+git clone https://github.com/zxlhhyccc/luci-app-v2raya.git package/luci-app-v2raya
+git clone https://github.com/v2fly/v2ray-core.git package/v2ray-core
+git clone https://github.com/jeessy2/ddns-go.git package/ddns-go
+git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/luci-app-ddns-go
